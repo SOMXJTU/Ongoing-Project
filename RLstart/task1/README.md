@@ -11,4 +11,4 @@
   - 环境和算法解藕
   
 - 累计奖励图：
-![累计奖励图](https://github.com/SOMXJTU/Ongoing-Project/edit/master/RLstart/task1/The cumulative rewards.png)
+![累计奖励图](https://github.com/SOMXJTU/Ongoing-Project/edit/master/RLstart/task1/The_cumulative_rewards.png)
