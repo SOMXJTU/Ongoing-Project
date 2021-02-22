@@ -48,9 +48,10 @@ def main(filename_list, compiler_list, algorithm_list, ylabel_list):
 if __name__ == "__main__":
     loss_compiler = re.compile(r'test loss is\: (.*?),')
     acc_compiler = re.compile(r'metrics result is \[(.*?)\]')
-    filelist = ["../result/mnist_fedavg.txt", "../result/mnist_cafl.txt", "../result/mnist_lg.txt", "../result/mnist_pfedl.txt"]
+    filelist = ["../result/mnist_fedavg.txt", "../result/mnist_cafl.txt", "../result/mnist_lg.txt", "../result/mnist_pfedl.txt",
+                "../result/mnist_apfl.txt"]
     compiller_list = [loss_compiler, acc_compiler]
-    algorithm_list = ["fedavg", "cafl", "lg", "pfedl"]
+    algorithm_list = ["fedavg", "cafl", "lg", "pfedl", "apfl"]
     ylabel_list = ["test loss", "accuracy"]
     main(filelist, compiller_list, algorithm_list, ylabel_list)
 
