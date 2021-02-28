@@ -46,13 +46,31 @@ def main(filename_list, compiler_list, algorithm_list, ylabel_list):
     plt.show(figure)
 
 if __name__ == "__main__":
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    base_path = os.path.dirname(base_path)
+
+    file_list = os.listdir("../result/")
+    text_list = [file for file in file_list if file.endswith(".txt")]
+    assert len(text_list) > 0
+    file_name = [os.path.splitext(tmp)[0] for tmp in text_list]
+    algorithm_list = []
+    filelist = []
+    for file in file_name:
+        data_name, algorithm_name = file.split("_")
+        if data_name == "mnist":
+            fileabs = os.path.join("result", ".".join([file, "txt"]))
+            filelist.append(os.path.join(base_path, fileabs))
+            algorithm_list.append(algorithm_name)
+        
+            
     loss_compiler = re.compile(r'test loss is\: (.*?),')
     acc_compiler = re.compile(r'metrics result is \[(.*?)\]')
-    filelist = ["../result/mnist_fedavg.txt", "../result/mnist_cafl.txt", "../result/mnist_lg.txt", "../result/mnist_pfedl.txt",
-                "../result/mnist_apfl.txt"]
+    # filelist = ["../result/mnist_fedavg.txt", "../result/mnist_cafl.txt", "../result/mnist_lg.txt", "../result/mnist_pfedl.txt",
+    #             "../result/mnist_apfl.txt"]
     compiller_list = [loss_compiler, acc_compiler]
-    algorithm_list = ["fedavg", "cafl", "lg", "pfedl", "apfl"]
+    # algorithm_list = ["fedavg", "cafl", "lg", "pfedl", "apfl"]
     ylabel_list = ["test loss", "accuracy"]
+    
     main(filelist, compiller_list, algorithm_list, ylabel_list)
 
 '''
