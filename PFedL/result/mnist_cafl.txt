@@ -1,200 +1,200 @@
-At round 1, test loss is: 2.3230, metrics result is [0.102283], max_norm is 0.0577, mean_norm is 0.0125
-At round 2, test loss is: 2.3178, metrics result is [0.106641], max_norm is 0.0573, mean_norm is 0.0124
-At round 3, test loss is: 2.3126, metrics result is [0.113108], max_norm is 0.0568, mean_norm is 0.0123
-At round 4, test loss is: 2.3076, metrics result is [0.122847], max_norm is 0.0567, mean_norm is 0.0122
-At round 5, test loss is: 2.3026, metrics result is [0.133135], max_norm is 0.0564, mean_norm is 0.0121
-At round 6, test loss is: 2.2977, metrics result is [0.146677], max_norm is 0.0563, mean_norm is 0.0120
-At round 7, test loss is: 2.2928, metrics result is [0.163337], max_norm is 0.0563, mean_norm is 0.0119
-At round 8, test loss is: 2.2880, metrics result is [0.182551], max_norm is 0.0562, mean_norm is 0.0119
-At round 9, test loss is: 2.2832, metrics result is [0.203438], max_norm is 0.0563, mean_norm is 0.0119
-At round 10, test loss is: 2.2784, metrics result is [0.226100], max_norm is 0.0562, mean_norm is 0.0118
-At round 11, test loss is: 2.2737, metrics result is [0.248307], max_norm is 0.0564, mean_norm is 0.0119
-At round 12, test loss is: 2.2689, metrics result is [0.274097], max_norm is 0.0561, mean_norm is 0.0119
-At round 13, test loss is: 2.2641, metrics result is [0.293661], max_norm is 0.0562, mean_norm is 0.0119
-At round 14, test loss is: 2.2593, metrics result is [0.317056], max_norm is 0.0564, mean_norm is 0.0119
-At round 15, test loss is: 2.2545, metrics result is [0.338438], max_norm is 0.0564, mean_norm is 0.0120
-At round 16, test loss is: 2.2497, metrics result is [0.357423], max_norm is 0.0569, mean_norm is 0.0120
-At round 17, test loss is: 2.2448, metrics result is [0.376518], max_norm is 0.0570, mean_norm is 0.0121
-At round 18, test loss is: 2.2398, metrics result is [0.393513], max_norm is 0.0571, mean_norm is 0.0121
-At round 19, test loss is: 2.2348, metrics result is [0.409202], max_norm is 0.0575, mean_norm is 0.0122
-At round 20, test loss is: 2.2297, metrics result is [0.423246], max_norm is 0.0580, mean_norm is 0.0123
-At round 21, test loss is: 2.2246, metrics result is [0.438462], max_norm is 0.0582, mean_norm is 0.0124
-At round 22, test loss is: 2.2194, metrics result is [0.449534], max_norm is 0.0586, mean_norm is 0.0124
-At round 23, test loss is: 2.2141, metrics result is [0.460387], max_norm is 0.0590, mean_norm is 0.0125
-At round 24, test loss is: 2.2088, metrics result is [0.470828], max_norm is 0.0592, mean_norm is 0.0126
-At round 25, test loss is: 2.2034, metrics result is [0.478340], max_norm is 0.0596, mean_norm is 0.0127
-At round 26, test loss is: 2.1979, metrics result is [0.485906], max_norm is 0.0600, mean_norm is 0.0128
-At round 27, test loss is: 2.1924, metrics result is [0.493407], max_norm is 0.0604, mean_norm is 0.0129
-At round 28, test loss is: 2.1867, metrics result is [0.500428], max_norm is 0.0608, mean_norm is 0.0130
-At round 29, test loss is: 2.1810, metrics result is [0.506248], max_norm is 0.0613, mean_norm is 0.0131
-At round 30, test loss is: 2.1752, metrics result is [0.511987], max_norm is 0.0618, mean_norm is 0.0132
-At round 31, test loss is: 2.1693, metrics result is [0.519533], max_norm is 0.0624, mean_norm is 0.0133
-At round 32, test loss is: 2.1633, metrics result is [0.525303], max_norm is 0.0625, mean_norm is 0.0134
-At round 33, test loss is: 2.1572, metrics result is [0.529755], max_norm is 0.0630, mean_norm is 0.0135
-At round 34, test loss is: 2.1511, metrics result is [0.537619], max_norm is 0.0633, mean_norm is 0.0136
-At round 35, test loss is: 2.1448, metrics result is [0.544555], max_norm is 0.0640, mean_norm is 0.0137
-At round 36, test loss is: 2.1385, metrics result is [0.551365], max_norm is 0.0648, mean_norm is 0.0138
-At round 37, test loss is: 2.1320, metrics result is [0.558033], max_norm is 0.0649, mean_norm is 0.0139
-At round 38, test loss is: 2.1255, metrics result is [0.563388], max_norm is 0.0655, mean_norm is 0.0140
-At round 39, test loss is: 2.1189, metrics result is [0.569151], max_norm is 0.0661, mean_norm is 0.0141
-At round 40, test loss is: 2.1121, metrics result is [0.573499], max_norm is 0.0662, mean_norm is 0.0142
-At round 41, test loss is: 2.1053, metrics result is [0.579250], max_norm is 0.0669, mean_norm is 0.0143
-At round 42, test loss is: 2.0984, metrics result is [0.584190], max_norm is 0.0676, mean_norm is 0.0144
-At round 43, test loss is: 2.0914, metrics result is [0.589911], max_norm is 0.0677, mean_norm is 0.0145
-At round 44, test loss is: 2.0842, metrics result is [0.595561], max_norm is 0.0686, mean_norm is 0.0146
-At round 45, test loss is: 2.0770, metrics result is [0.600648], max_norm is 0.0689, mean_norm is 0.0147
-At round 46, test loss is: 2.0697, metrics result is [0.605935], max_norm is 0.0695, mean_norm is 0.0148
-At round 47, test loss is: 2.0623, metrics result is [0.610201], max_norm is 0.0701, mean_norm is 0.0149
-At round 48, test loss is: 2.0548, metrics result is [0.616126], max_norm is 0.0702, mean_norm is 0.0149
-At round 49, test loss is: 2.0472, metrics result is [0.620724], max_norm is 0.0709, mean_norm is 0.0151
-At round 50, test loss is: 2.0396, metrics result is [0.625641], max_norm is 0.0711, mean_norm is 0.0151
-At round 51, test loss is: 2.0318, metrics result is [0.630611], max_norm is 0.0717, mean_norm is 0.0152
-At round 52, test loss is: 2.0239, metrics result is [0.634079], max_norm is 0.0722, mean_norm is 0.0153
-At round 53, test loss is: 2.0159, metrics result is [0.639560], max_norm is 0.0727, mean_norm is 0.0154
-At round 54, test loss is: 2.0079, metrics result is [0.643847], max_norm is 0.0733, mean_norm is 0.0155
-At round 55, test loss is: 1.9997, metrics result is [0.646730], max_norm is 0.0739, mean_norm is 0.0156
-At round 56, test loss is: 1.9915, metrics result is [0.651120], max_norm is 0.0742, mean_norm is 0.0157
-At round 57, test loss is: 1.9832, metrics result is [0.654589], max_norm is 0.0747, mean_norm is 0.0158
-At round 58, test loss is: 1.9747, metrics result is [0.658652], max_norm is 0.0753, mean_norm is 0.0158
-At round 59, test loss is: 1.9662, metrics result is [0.662527], max_norm is 0.0757, mean_norm is 0.0159
-At round 60, test loss is: 1.9576, metrics result is [0.666593], max_norm is 0.0763, mean_norm is 0.0160
-At round 61, test loss is: 1.9489, metrics result is [0.670784], max_norm is 0.0767, mean_norm is 0.0161
-At round 62, test loss is: 1.9402, metrics result is [0.673483], max_norm is 0.0771, mean_norm is 0.0162
-At round 63, test loss is: 1.9313, metrics result is [0.677195], max_norm is 0.0776, mean_norm is 0.0162
-At round 64, test loss is: 1.9224, metrics result is [0.679137], max_norm is 0.0780, mean_norm is 0.0163
-At round 65, test loss is: 1.9133, metrics result is [0.682135], max_norm is 0.0784, mean_norm is 0.0164
-At round 66, test loss is: 1.9043, metrics result is [0.686066], max_norm is 0.0789, mean_norm is 0.0164
-At round 67, test loss is: 1.8951, metrics result is [0.689859], max_norm is 0.0793, mean_norm is 0.0165
-At round 68, test loss is: 1.8858, metrics result is [0.693158], max_norm is 0.0797, mean_norm is 0.0166
-At round 69, test loss is: 1.8765, metrics result is [0.696362], max_norm is 0.0803, mean_norm is 0.0166
-At round 70, test loss is: 1.8672, metrics result is [0.699379], max_norm is 0.0807, mean_norm is 0.0167
-At round 71, test loss is: 1.8577, metrics result is [0.702444], max_norm is 0.0811, mean_norm is 0.0167
-At round 72, test loss is: 1.8482, metrics result is [0.705349], max_norm is 0.0817, mean_norm is 0.0168
-At round 73, test loss is: 1.8387, metrics result is [0.707149], max_norm is 0.0820, mean_norm is 0.0168
-At round 74, test loss is: 1.8291, metrics result is [0.709277], max_norm is 0.0826, mean_norm is 0.0169
-At round 75, test loss is: 1.8194, metrics result is [0.711592], max_norm is 0.0830, mean_norm is 0.0169
-At round 76, test loss is: 1.8097, metrics result is [0.713701], max_norm is 0.0834, mean_norm is 0.0170
-At round 77, test loss is: 1.8000, metrics result is [0.716183], max_norm is 0.0837, mean_norm is 0.0170
-At round 78, test loss is: 1.7902, metrics result is [0.718456], max_norm is 0.0845, mean_norm is 0.0171
-At round 79, test loss is: 1.7803, metrics result is [0.720959], max_norm is 0.0845, mean_norm is 0.0171
-At round 80, test loss is: 1.7705, metrics result is [0.722980], max_norm is 0.0852, mean_norm is 0.0171
-At round 81, test loss is: 1.7606, metrics result is [0.725672], max_norm is 0.0855, mean_norm is 0.0171
-At round 82, test loss is: 1.7507, metrics result is [0.727677], max_norm is 0.0857, mean_norm is 0.0172
-At round 83, test loss is: 1.7407, metrics result is [0.729287], max_norm is 0.0864, mean_norm is 0.0172
-At round 84, test loss is: 1.7307, metrics result is [0.731498], max_norm is 0.0866, mean_norm is 0.0172
-At round 85, test loss is: 1.7207, metrics result is [0.733999], max_norm is 0.0869, mean_norm is 0.0172
-At round 86, test loss is: 1.7107, metrics result is [0.735807], max_norm is 0.0874, mean_norm is 0.0172
-At round 87, test loss is: 1.7007, metrics result is [0.737628], max_norm is 0.0876, mean_norm is 0.0172
-At round 88, test loss is: 1.6907, metrics result is [0.739214], max_norm is 0.0879, mean_norm is 0.0172
-At round 89, test loss is: 1.6806, metrics result is [0.740204], max_norm is 0.0883, mean_norm is 0.0172
-At round 90, test loss is: 1.6706, metrics result is [0.742186], max_norm is 0.0886, mean_norm is 0.0172
-At round 91, test loss is: 1.6605, metrics result is [0.743876], max_norm is 0.0889, mean_norm is 0.0173
-At round 92, test loss is: 1.6504, metrics result is [0.745389], max_norm is 0.0894, mean_norm is 0.0172
-At round 93, test loss is: 1.6404, metrics result is [0.746510], max_norm is 0.0898, mean_norm is 0.0172
-At round 94, test loss is: 1.6303, metrics result is [0.747607], max_norm is 0.0901, mean_norm is 0.0172
-At round 95, test loss is: 1.6203, metrics result is [0.748709], max_norm is 0.0902, mean_norm is 0.0172
-At round 96, test loss is: 1.6102, metrics result is [0.749903], max_norm is 0.0904, mean_norm is 0.0172
-At round 97, test loss is: 1.6002, metrics result is [0.752808], max_norm is 0.0906, mean_norm is 0.0172
-At round 98, test loss is: 1.5902, metrics result is [0.754016], max_norm is 0.0913, mean_norm is 0.0172
-At round 99, test loss is: 1.5802, metrics result is [0.755699], max_norm is 0.0912, mean_norm is 0.0172
-At round 100, test loss is: 1.5702, metrics result is [0.757618], max_norm is 0.0915, mean_norm is 0.0172
-At round 101, test loss is: 1.5602, metrics result is [0.759320], max_norm is 0.0918, mean_norm is 0.0171
-At round 102, test loss is: 1.5503, metrics result is [0.761430], max_norm is 0.0918, mean_norm is 0.0171
-At round 103, test loss is: 1.5404, metrics result is [0.762950], max_norm is 0.0922, mean_norm is 0.0171
-At round 104, test loss is: 1.5305, metrics result is [0.765382], max_norm is 0.0926, mean_norm is 0.0171
-At round 105, test loss is: 1.5207, metrics result is [0.766400], max_norm is 0.0927, mean_norm is 0.0170
-At round 106, test loss is: 1.5109, metrics result is [0.767302], max_norm is 0.0929, mean_norm is 0.0170
-At round 107, test loss is: 1.4289, metrics result is [0.821725], max_norm is 0.0933, mean_norm is 0.0170
-At round 108, test loss is: 1.3587, metrics result is [0.845521], max_norm is 0.0895, mean_norm is 0.0464
-At round 109, test loss is: 1.2975, metrics result is [0.855741], max_norm is 0.0860, mean_norm is 0.0433
-At round 110, test loss is: 1.2436, metrics result is [0.860472], max_norm is 0.0835, mean_norm is 0.0407
-At round 111, test loss is: 1.1955, metrics result is [0.863819], max_norm is 0.0810, mean_norm is 0.0385
-At round 112, test loss is: 1.1523, metrics result is [0.864944], max_norm is 0.0793, mean_norm is 0.0367
-At round 113, test loss is: 1.1130, metrics result is [0.867072], max_norm is 0.0774, mean_norm is 0.0350
-At round 114, test loss is: 1.0771, metrics result is [0.871842], max_norm is 0.0755, mean_norm is 0.0335
-At round 115, test loss is: 1.0442, metrics result is [0.874477], max_norm is 0.0746, mean_norm is 0.0322
-At round 116, test loss is: 1.0138, metrics result is [0.876920], max_norm is 0.0734, mean_norm is 0.0310
-At round 117, test loss is: 0.9856, metrics result is [0.879584], max_norm is 0.0720, mean_norm is 0.0298
-At round 118, test loss is: 0.9594, metrics result is [0.881843], max_norm is 0.0711, mean_norm is 0.0288
-At round 119, test loss is: 0.9349, metrics result is [0.884187], max_norm is 0.0701, mean_norm is 0.0278
-At round 120, test loss is: 0.9119, metrics result is [0.886969], max_norm is 0.0691, mean_norm is 0.0269
-At round 121, test loss is: 0.8904, metrics result is [0.888917], max_norm is 0.0683, mean_norm is 0.0261
-At round 122, test loss is: 0.8702, metrics result is [0.891700], max_norm is 0.0676, mean_norm is 0.0252
-At round 123, test loss is: 0.8511, metrics result is [0.893847], max_norm is 0.0671, mean_norm is 0.0245
-At round 124, test loss is: 0.8331, metrics result is [0.894263], max_norm is 0.0662, mean_norm is 0.0238
-At round 125, test loss is: 0.8160, metrics result is [0.895893], max_norm is 0.0656, mean_norm is 0.0231
-At round 126, test loss is: 0.7998, metrics result is [0.897011], max_norm is 0.0649, mean_norm is 0.0225
-At round 127, test loss is: 0.7844, metrics result is [0.897729], max_norm is 0.0646, mean_norm is 0.0219
-At round 128, test loss is: 0.7698, metrics result is [0.898963], max_norm is 0.0636, mean_norm is 0.0213
-At round 129, test loss is: 0.7558, metrics result is [0.900097], max_norm is 0.0633, mean_norm is 0.0207
-At round 130, test loss is: 0.7425, metrics result is [0.901020], max_norm is 0.0627, mean_norm is 0.0202
-At round 131, test loss is: 0.7298, metrics result is [0.902025], max_norm is 0.0619, mean_norm is 0.0197
-At round 132, test loss is: 0.7176, metrics result is [0.902642], max_norm is 0.0614, mean_norm is 0.0192
-At round 133, test loss is: 0.7059, metrics result is [0.903359], max_norm is 0.0609, mean_norm is 0.0188
-At round 134, test loss is: 0.6947, metrics result is [0.904079], max_norm is 0.0607, mean_norm is 0.0184
-At round 135, test loss is: 0.6840, metrics result is [0.904973], max_norm is 0.0602, mean_norm is 0.0180
-At round 136, test loss is: 0.6736, metrics result is [0.905584], max_norm is 0.0599, mean_norm is 0.0175
-At round 137, test loss is: 0.6637, metrics result is [0.905884], max_norm is 0.0591, mean_norm is 0.0172
-At round 138, test loss is: 0.6541, metrics result is [0.906607], max_norm is 0.0589, mean_norm is 0.0168
-At round 139, test loss is: 0.6449, metrics result is [0.907110], max_norm is 0.0581, mean_norm is 0.0165
-At round 140, test loss is: 0.6360, metrics result is [0.907305], max_norm is 0.0576, mean_norm is 0.0161
-At round 141, test loss is: 0.6274, metrics result is [0.907904], max_norm is 0.0573, mean_norm is 0.0158
-At round 142, test loss is: 0.6190, metrics result is [0.908610], max_norm is 0.0569, mean_norm is 0.0155
-At round 143, test loss is: 0.6110, metrics result is [0.909224], max_norm is 0.0564, mean_norm is 0.0152
-At round 144, test loss is: 0.6032, metrics result is [0.909320], max_norm is 0.0560, mean_norm is 0.0149
-At round 145, test loss is: 0.5957, metrics result is [0.909951], max_norm is 0.0554, mean_norm is 0.0146
-At round 146, test loss is: 0.5884, metrics result is [0.910458], max_norm is 0.0550, mean_norm is 0.0144
-At round 147, test loss is: 0.5813, metrics result is [0.910659], max_norm is 0.0546, mean_norm is 0.0141
-At round 148, test loss is: 0.5745, metrics result is [0.910833], max_norm is 0.0543, mean_norm is 0.0139
-At round 149, test loss is: 0.5678, metrics result is [0.910928], max_norm is 0.0536, mean_norm is 0.0136
-At round 150, test loss is: 0.5614, metrics result is [0.911122], max_norm is 0.0538, mean_norm is 0.0134
-At round 151, test loss is: 0.5551, metrics result is [0.911319], max_norm is 0.0529, mean_norm is 0.0132
-At round 152, test loss is: 0.5490, metrics result is [0.912130], max_norm is 0.0529, mean_norm is 0.0129
-At round 153, test loss is: 0.5431, metrics result is [0.912432], max_norm is 0.0523, mean_norm is 0.0127
-At round 154, test loss is: 0.5373, metrics result is [0.912325], max_norm is 0.0514, mean_norm is 0.0125
-At round 155, test loss is: 0.5317, metrics result is [0.912922], max_norm is 0.0514, mean_norm is 0.0123
-At round 156, test loss is: 0.5262, metrics result is [0.913333], max_norm is 0.0515, mean_norm is 0.0121
-At round 157, test loss is: 0.5209, metrics result is [0.913731], max_norm is 0.0509, mean_norm is 0.0119
-At round 158, test loss is: 0.5157, metrics result is [0.913924], max_norm is 0.0506, mean_norm is 0.0118
-At round 159, test loss is: 0.5107, metrics result is [0.914335], max_norm is 0.0499, mean_norm is 0.0116
-At round 160, test loss is: 0.5058, metrics result is [0.914526], max_norm is 0.0502, mean_norm is 0.0114
-At round 161, test loss is: 0.5010, metrics result is [0.915031], max_norm is 0.0490, mean_norm is 0.0112
-At round 162, test loss is: 0.4963, metrics result is [0.915235], max_norm is 0.0495, mean_norm is 0.0111
-At round 163, test loss is: 0.4918, metrics result is [0.915132], max_norm is 0.0488, mean_norm is 0.0109
-At round 164, test loss is: 0.4873, metrics result is [0.915026], max_norm is 0.0487, mean_norm is 0.0108
-At round 165, test loss is: 0.4829, metrics result is [0.915127], max_norm is 0.0483, mean_norm is 0.0106
-At round 166, test loss is: 0.4787, metrics result is [0.915340], max_norm is 0.0479, mean_norm is 0.0105
-At round 167, test loss is: 0.4745, metrics result is [0.915645], max_norm is 0.0474, mean_norm is 0.0103
-At round 168, test loss is: 0.4705, metrics result is [0.915840], max_norm is 0.0474, mean_norm is 0.0102
-At round 169, test loss is: 0.4665, metrics result is [0.916041], max_norm is 0.0474, mean_norm is 0.0101
-At round 170, test loss is: 0.4626, metrics result is [0.916141], max_norm is 0.0471, mean_norm is 0.0099
-At round 171, test loss is: 0.4589, metrics result is [0.916238], max_norm is 0.0465, mean_norm is 0.0098
-At round 172, test loss is: 0.4552, metrics result is [0.916238], max_norm is 0.0463, mean_norm is 0.0097
-At round 173, test loss is: 0.4515, metrics result is [0.916544], max_norm is 0.0458, mean_norm is 0.0096
-At round 174, test loss is: 0.4480, metrics result is [0.916538], max_norm is 0.0454, mean_norm is 0.0094
-At round 175, test loss is: 0.4445, metrics result is [0.916745], max_norm is 0.0455, mean_norm is 0.0093
-At round 176, test loss is: 0.4411, metrics result is [0.917239], max_norm is 0.0448, mean_norm is 0.0092
-At round 177, test loss is: 0.4378, metrics result is [0.917341], max_norm is 0.0451, mean_norm is 0.0091
-At round 178, test loss is: 0.4345, metrics result is [0.917545], max_norm is 0.0448, mean_norm is 0.0090
-At round 179, test loss is: 0.4313, metrics result is [0.917544], max_norm is 0.0445, mean_norm is 0.0089
-At round 180, test loss is: 0.4282, metrics result is [0.917857], max_norm is 0.0446, mean_norm is 0.0088
-At round 181, test loss is: 0.4251, metrics result is [0.918263], max_norm is 0.0443, mean_norm is 0.0087
-At round 182, test loss is: 0.4221, metrics result is [0.918359], max_norm is 0.0439, mean_norm is 0.0086
-At round 183, test loss is: 0.4192, metrics result is [0.918567], max_norm is 0.0440, mean_norm is 0.0085
-At round 184, test loss is: 0.4163, metrics result is [0.918769], max_norm is 0.0437, mean_norm is 0.0084
-At round 185, test loss is: 0.4134, metrics result is [0.919168], max_norm is 0.0434, mean_norm is 0.0083
-At round 186, test loss is: 0.4107, metrics result is [0.919265], max_norm is 0.0433, mean_norm is 0.0082
-At round 187, test loss is: 0.4079, metrics result is [0.919468], max_norm is 0.0424, mean_norm is 0.0081
-At round 188, test loss is: 0.4053, metrics result is [0.919864], max_norm is 0.0425, mean_norm is 0.0080
-At round 189, test loss is: 0.4026, metrics result is [0.919964], max_norm is 0.0425, mean_norm is 0.0080
-At round 190, test loss is: 0.4001, metrics result is [0.920170], max_norm is 0.0423, mean_norm is 0.0079
-At round 191, test loss is: 0.3975, metrics result is [0.920567], max_norm is 0.0426, mean_norm is 0.0078
-At round 192, test loss is: 0.3951, metrics result is [0.920667], max_norm is 0.0417, mean_norm is 0.0077
-At round 193, test loss is: 0.3926, metrics result is [0.920667], max_norm is 0.0419, mean_norm is 0.0076
-At round 194, test loss is: 0.3902, metrics result is [0.920963], max_norm is 0.0414, mean_norm is 0.0076
-At round 195, test loss is: 0.3879, metrics result is [0.921454], max_norm is 0.0418, mean_norm is 0.0075
-At round 196, test loss is: 0.3856, metrics result is [0.921549], max_norm is 0.0411, mean_norm is 0.0074
-At round 197, test loss is: 0.3833, metrics result is [0.921755], max_norm is 0.0410, mean_norm is 0.0073
-At round 198, test loss is: 0.3811, metrics result is [0.921960], max_norm is 0.0406, mean_norm is 0.0073
-At round 199, test loss is: 0.3789, metrics result is [0.921957], max_norm is 0.0407, mean_norm is 0.0072
-At round 200, test loss is: 0.3768, metrics result is [0.921954], max_norm is 0.0406, mean_norm is 0.0071
+At round 1, test_loss is 2.3335, accuracy is 0.142822, max_norm is 0.1100, mean_norm is 0.0355
+At round 2, test_loss is 2.2942, accuracy is 0.158853, max_norm is 0.1071, mean_norm is 0.0338
+At round 3, test_loss is 2.2577, accuracy is 0.172904, max_norm is 0.1063, mean_norm is 0.0326
+At round 4, test_loss is 2.2235, accuracy is 0.188369, max_norm is 0.1034, mean_norm is 0.0315
+At round 5, test_loss is 2.1909, accuracy is 0.206111, max_norm is 0.1026, mean_norm is 0.0308
+At round 6, test_loss is 2.1598, accuracy is 0.223655, max_norm is 0.1013, mean_norm is 0.0300
+At round 7, test_loss is 2.1299, accuracy is 0.246050, max_norm is 0.1005, mean_norm is 0.0295
+At round 8, test_loss is 2.1009, accuracy is 0.270120, max_norm is 0.0991, mean_norm is 0.0290
+At round 9, test_loss is 2.0729, accuracy is 0.293360, max_norm is 0.0979, mean_norm is 0.0286
+At round 10, test_loss is 2.0457, accuracy is 0.318583, max_norm is 0.0976, mean_norm is 0.0282
+At round 11, test_loss is 2.0191, accuracy is 0.339550, max_norm is 0.0979, mean_norm is 0.0278
+At round 12, test_loss is 1.9933, accuracy is 0.363586, max_norm is 0.0981, mean_norm is 0.0274
+At round 13, test_loss is 1.9680, accuracy is 0.386095, max_norm is 0.0988, mean_norm is 0.0271
+At round 14, test_loss is 1.9434, accuracy is 0.406571, max_norm is 0.0994, mean_norm is 0.0268
+At round 15, test_loss is 1.9192, accuracy is 0.428587, max_norm is 0.0999, mean_norm is 0.0265
+At round 16, test_loss is 1.8956, accuracy is 0.446810, max_norm is 0.1002, mean_norm is 0.0263
+At round 17, test_loss is 1.8725, accuracy is 0.465720, max_norm is 0.1007, mean_norm is 0.0260
+At round 18, test_loss is 1.8498, accuracy is 0.484143, max_norm is 0.1011, mean_norm is 0.0257
+At round 19, test_loss is 1.8276, accuracy is 0.503181, max_norm is 0.1015, mean_norm is 0.0255
+At round 20, test_loss is 1.8057, accuracy is 0.520409, max_norm is 0.1026, mean_norm is 0.0253
+At round 21, test_loss is 1.7842, accuracy is 0.536541, max_norm is 0.1026, mean_norm is 0.0251
+At round 22, test_loss is 1.7631, accuracy is 0.549080, max_norm is 0.1030, mean_norm is 0.0249
+At round 23, test_loss is 1.7423, accuracy is 0.562770, max_norm is 0.1033, mean_norm is 0.0247
+At round 24, test_loss is 1.7218, accuracy is 0.576847, max_norm is 0.1036, mean_norm is 0.0245
+At round 25, test_loss is 1.7016, accuracy is 0.588229, max_norm is 0.1040, mean_norm is 0.0243
+At round 26, test_loss is 1.6817, accuracy is 0.601495, max_norm is 0.1043, mean_norm is 0.0241
+At round 27, test_loss is 1.6622, accuracy is 0.611985, max_norm is 0.1046, mean_norm is 0.0239
+At round 28, test_loss is 1.6429, accuracy is 0.621733, max_norm is 0.1052, mean_norm is 0.0238
+At round 29, test_loss is 1.6239, accuracy is 0.630668, max_norm is 0.1052, mean_norm is 0.0236
+At round 30, test_loss is 1.6051, accuracy is 0.637983, max_norm is 0.1049, mean_norm is 0.0234
+At round 31, test_loss is 1.5866, accuracy is 0.647984, max_norm is 0.1055, mean_norm is 0.0233
+At round 32, test_loss is 1.5684, accuracy is 0.657473, max_norm is 0.1054, mean_norm is 0.0231
+At round 33, test_loss is 1.5505, accuracy is 0.664602, max_norm is 0.1058, mean_norm is 0.0229
+At round 34, test_loss is 1.5329, accuracy is 0.671295, max_norm is 0.1060, mean_norm is 0.0227
+At round 35, test_loss is 1.5155, accuracy is 0.676690, max_norm is 0.1055, mean_norm is 0.0226
+At round 36, test_loss is 1.4984, accuracy is 0.681695, max_norm is 0.1059, mean_norm is 0.0224
+At round 37, test_loss is 1.4815, accuracy is 0.687010, max_norm is 0.1059, mean_norm is 0.0222
+At round 38, test_loss is 1.4650, accuracy is 0.694358, max_norm is 0.1060, mean_norm is 0.0220
+At round 39, test_loss is 1.4487, accuracy is 0.701584, max_norm is 0.1065, mean_norm is 0.0218
+At round 40, test_loss is 1.4327, accuracy is 0.706504, max_norm is 0.1055, mean_norm is 0.0216
+At round 41, test_loss is 1.4170, accuracy is 0.712245, max_norm is 0.1057, mean_norm is 0.0215
+At round 42, test_loss is 1.4015, accuracy is 0.717150, max_norm is 0.1053, mean_norm is 0.0213
+At round 43, test_loss is 1.3863, accuracy is 0.721569, max_norm is 0.1055, mean_norm is 0.0211
+At round 44, test_loss is 1.3714, accuracy is 0.726567, max_norm is 0.1057, mean_norm is 0.0209
+At round 45, test_loss is 1.3567, accuracy is 0.729471, max_norm is 0.1048, mean_norm is 0.0207
+At round 46, test_loss is 1.3422, accuracy is 0.733771, max_norm is 0.1057, mean_norm is 0.0205
+At round 47, test_loss is 1.3281, accuracy is 0.737216, max_norm is 0.1050, mean_norm is 0.0203
+At round 48, test_loss is 1.3141, accuracy is 0.741059, max_norm is 0.1048, mean_norm is 0.0202
+At round 49, test_loss is 1.3004, accuracy is 0.744778, max_norm is 0.1049, mean_norm is 0.0200
+At round 50, test_loss is 1.2870, accuracy is 0.748895, max_norm is 0.1043, mean_norm is 0.0198
+At round 51, test_loss is 1.2738, accuracy is 0.751029, max_norm is 0.1043, mean_norm is 0.0196
+At round 52, test_loss is 1.2609, accuracy is 0.755068, max_norm is 0.1040, mean_norm is 0.0195
+At round 53, test_loss is 1.2481, accuracy is 0.758926, max_norm is 0.1040, mean_norm is 0.0193
+At round 54, test_loss is 1.2356, accuracy is 0.762458, max_norm is 0.1038, mean_norm is 0.0191
+At round 55, test_loss is 1.2234, accuracy is 0.765879, max_norm is 0.1033, mean_norm is 0.0189
+At round 56, test_loss is 1.2113, accuracy is 0.767503, max_norm is 0.1031, mean_norm is 0.0187
+At round 57, test_loss is 1.1995, accuracy is 0.769833, max_norm is 0.1033, mean_norm is 0.0186
+At round 58, test_loss is 1.1879, accuracy is 0.772468, max_norm is 0.1031, mean_norm is 0.0184
+At round 59, test_loss is 1.1765, accuracy is 0.774684, max_norm is 0.1025, mean_norm is 0.0182
+At round 60, test_loss is 1.1653, accuracy is 0.776720, max_norm is 0.1029, mean_norm is 0.0181
+At round 61, test_loss is 1.1543, accuracy is 0.780069, max_norm is 0.1022, mean_norm is 0.0179
+At round 62, test_loss is 1.1436, accuracy is 0.782080, max_norm is 0.1026, mean_norm is 0.0177
+At round 63, test_loss is 1.1330, accuracy is 0.783494, max_norm is 0.1021, mean_norm is 0.0176
+At round 64, test_loss is 1.1226, accuracy is 0.785017, max_norm is 0.1020, mean_norm is 0.0174
+At round 65, test_loss is 1.1124, accuracy is 0.786734, max_norm is 0.1018, mean_norm is 0.0172
+At round 66, test_loss is 1.1024, accuracy is 0.788352, max_norm is 0.1011, mean_norm is 0.0171
+At round 67, test_loss is 0.9968, accuracy is 0.839436, max_norm is 0.1014, mean_norm is 0.0169
+At round 68, test_loss is 0.9196, accuracy is 0.861529, max_norm is 0.0922, mean_norm is 0.0486
+At round 69, test_loss is 0.8605, accuracy is 0.871938, max_norm is 0.0856, mean_norm is 0.0426
+At round 70, test_loss is 0.8136, accuracy is 0.877547, max_norm is 0.0796, mean_norm is 0.0379
+At round 71, test_loss is 0.7752, accuracy is 0.882270, max_norm is 0.0763, mean_norm is 0.0343
+At round 72, test_loss is 0.7429, accuracy is 0.884355, max_norm is 0.0730, mean_norm is 0.0314
+At round 73, test_loss is 0.7151, accuracy is 0.886501, max_norm is 0.0702, mean_norm is 0.0290
+At round 74, test_loss is 0.6910, accuracy is 0.888717, max_norm is 0.0681, mean_norm is 0.0270
+At round 75, test_loss is 0.6696, accuracy is 0.889834, max_norm is 0.0662, mean_norm is 0.0253
+At round 76, test_loss is 0.6505, accuracy is 0.891543, max_norm is 0.0647, mean_norm is 0.0239
+At round 77, test_loss is 0.6332, accuracy is 0.893243, max_norm is 0.0637, mean_norm is 0.0227
+At round 78, test_loss is 0.6175, accuracy is 0.895154, max_norm is 0.0619, mean_norm is 0.0215
+At round 79, test_loss is 0.6031, accuracy is 0.896366, max_norm is 0.0608, mean_norm is 0.0206
+At round 80, test_loss is 0.5898, accuracy is 0.897967, max_norm is 0.0599, mean_norm is 0.0197
+At round 81, test_loss is 0.5775, accuracy is 0.898963, max_norm is 0.0589, mean_norm is 0.0189
+At round 82, test_loss is 0.5660, accuracy is 0.900452, max_norm is 0.0584, mean_norm is 0.0182
+At round 83, test_loss is 0.5553, accuracy is 0.901354, max_norm is 0.0576, mean_norm is 0.0175
+At round 84, test_loss is 0.5452, accuracy is 0.902183, max_norm is 0.0565, mean_norm is 0.0169
+At round 85, test_loss is 0.5357, accuracy is 0.903189, max_norm is 0.0551, mean_norm is 0.0164
+At round 86, test_loss is 0.5268, accuracy is 0.903805, max_norm is 0.0553, mean_norm is 0.0159
+At round 87, test_loss is 0.5183, accuracy is 0.904413, max_norm is 0.0545, mean_norm is 0.0154
+At round 88, test_loss is 0.5103, accuracy is 0.904914, max_norm is 0.0539, mean_norm is 0.0150
+At round 89, test_loss is 0.5027, accuracy is 0.905110, max_norm is 0.0535, mean_norm is 0.0146
+At round 90, test_loss is 0.4954, accuracy is 0.906420, max_norm is 0.0524, mean_norm is 0.0142
+At round 91, test_loss is 0.4884, accuracy is 0.906921, max_norm is 0.0525, mean_norm is 0.0138
+At round 92, test_loss is 0.4818, accuracy is 0.907724, max_norm is 0.0518, mean_norm is 0.0135
+At round 93, test_loss is 0.4754, accuracy is 0.908509, max_norm is 0.0513, mean_norm is 0.0132
+At round 94, test_loss is 0.4694, accuracy is 0.909721, max_norm is 0.0511, mean_norm is 0.0129
+At round 95, test_loss is 0.4635, accuracy is 0.909914, max_norm is 0.0504, mean_norm is 0.0126
+At round 96, test_loss is 0.4579, accuracy is 0.910514, max_norm is 0.0505, mean_norm is 0.0123
+At round 97, test_loss is 0.4525, accuracy is 0.911401, max_norm is 0.0494, mean_norm is 0.0121
+At round 98, test_loss is 0.4473, accuracy is 0.912002, max_norm is 0.0495, mean_norm is 0.0118
+At round 99, test_loss is 0.4423, accuracy is 0.912208, max_norm is 0.0491, mean_norm is 0.0116
+At round 100, test_loss is 0.4375, accuracy is 0.913195, max_norm is 0.0487, mean_norm is 0.0113
+At round 101, test_loss is 0.4328, accuracy is 0.913599, max_norm is 0.0481, mean_norm is 0.0111
+At round 102, test_loss is 0.4283, accuracy is 0.914006, max_norm is 0.0477, mean_norm is 0.0109
+At round 103, test_loss is 0.4239, accuracy is 0.914590, max_norm is 0.0472, mean_norm is 0.0107
+At round 104, test_loss is 0.4197, accuracy is 0.915480, max_norm is 0.0470, mean_norm is 0.0105
+At round 105, test_loss is 0.4156, accuracy is 0.915785, max_norm is 0.0465, mean_norm is 0.0104
+At round 106, test_loss is 0.4117, accuracy is 0.916576, max_norm is 0.0465, mean_norm is 0.0102
+At round 107, test_loss is 0.4078, accuracy is 0.917186, max_norm is 0.0469, mean_norm is 0.0100
+At round 108, test_loss is 0.4041, accuracy is 0.917672, max_norm is 0.0456, mean_norm is 0.0099
+At round 109, test_loss is 0.4005, accuracy is 0.918069, max_norm is 0.0455, mean_norm is 0.0097
+At round 110, test_loss is 0.3970, accuracy is 0.918268, max_norm is 0.0451, mean_norm is 0.0095
+At round 111, test_loss is 0.3936, accuracy is 0.918570, max_norm is 0.0441, mean_norm is 0.0094
+At round 112, test_loss is 0.3903, accuracy is 0.918980, max_norm is 0.0442, mean_norm is 0.0093
+At round 113, test_loss is 0.3870, accuracy is 0.919176, max_norm is 0.0447, mean_norm is 0.0091
+At round 114, test_loss is 0.3839, accuracy is 0.919789, max_norm is 0.0441, mean_norm is 0.0090
+At round 115, test_loss is 0.3809, accuracy is 0.919998, max_norm is 0.0438, mean_norm is 0.0089
+At round 116, test_loss is 0.3779, accuracy is 0.920204, max_norm is 0.0437, mean_norm is 0.0087
+At round 117, test_loss is 0.3750, accuracy is 0.920512, max_norm is 0.0434, mean_norm is 0.0086
+At round 118, test_loss is 0.3722, accuracy is 0.920919, max_norm is 0.0436, mean_norm is 0.0085
+At round 119, test_loss is 0.3694, accuracy is 0.921218, max_norm is 0.0435, mean_norm is 0.0084
+At round 120, test_loss is 0.3667, accuracy is 0.921425, max_norm is 0.0424, mean_norm is 0.0083
+At round 121, test_loss is 0.3641, accuracy is 0.921730, max_norm is 0.0422, mean_norm is 0.0082
+At round 122, test_loss is 0.3616, accuracy is 0.922237, max_norm is 0.0424, mean_norm is 0.0080
+At round 123, test_loss is 0.3591, accuracy is 0.922342, max_norm is 0.0423, mean_norm is 0.0079
+At round 124, test_loss is 0.3566, accuracy is 0.922741, max_norm is 0.0418, mean_norm is 0.0079
+At round 125, test_loss is 0.3543, accuracy is 0.922845, max_norm is 0.0416, mean_norm is 0.0078
+At round 126, test_loss is 0.3519, accuracy is 0.923258, max_norm is 0.0412, mean_norm is 0.0077
+At round 127, test_loss is 0.3497, accuracy is 0.923359, max_norm is 0.0408, mean_norm is 0.0076
+At round 128, test_loss is 0.3474, accuracy is 0.923744, max_norm is 0.0409, mean_norm is 0.0075
+At round 129, test_loss is 0.3452, accuracy is 0.924243, max_norm is 0.0404, mean_norm is 0.0074
+At round 130, test_loss is 0.3431, accuracy is 0.924437, max_norm is 0.0402, mean_norm is 0.0073
+At round 131, test_loss is 0.3411, accuracy is 0.924643, max_norm is 0.0399, mean_norm is 0.0072
+At round 132, test_loss is 0.3390, accuracy is 0.924745, max_norm is 0.0402, mean_norm is 0.0072
+At round 133, test_loss is 0.3370, accuracy is 0.924851, max_norm is 0.0398, mean_norm is 0.0071
+At round 134, test_loss is 0.3351, accuracy is 0.925252, max_norm is 0.0401, mean_norm is 0.0070
+At round 135, test_loss is 0.3332, accuracy is 0.925460, max_norm is 0.0403, mean_norm is 0.0069
+At round 136, test_loss is 0.3313, accuracy is 0.925459, max_norm is 0.0396, mean_norm is 0.0068
+At round 137, test_loss is 0.3294, accuracy is 0.926162, max_norm is 0.0395, mean_norm is 0.0068
+At round 138, test_loss is 0.3277, accuracy is 0.926669, max_norm is 0.0396, mean_norm is 0.0067
+At round 139, test_loss is 0.3259, accuracy is 0.926981, max_norm is 0.0396, mean_norm is 0.0066
+At round 140, test_loss is 0.3241, accuracy is 0.927777, max_norm is 0.0387, mean_norm is 0.0066
+At round 141, test_loss is 0.3224, accuracy is 0.927779, max_norm is 0.0389, mean_norm is 0.0065
+At round 142, test_loss is 0.3208, accuracy is 0.928083, max_norm is 0.0391, mean_norm is 0.0065
+At round 143, test_loss is 0.3191, accuracy is 0.928284, max_norm is 0.0379, mean_norm is 0.0064
+At round 144, test_loss is 0.3175, accuracy is 0.928373, max_norm is 0.0389, mean_norm is 0.0063
+At round 145, test_loss is 0.3159, accuracy is 0.928477, max_norm is 0.0385, mean_norm is 0.0063
+At round 146, test_loss is 0.3144, accuracy is 0.928881, max_norm is 0.0381, mean_norm is 0.0062
+At round 147, test_loss is 0.3129, accuracy is 0.929090, max_norm is 0.0377, mean_norm is 0.0061
+At round 148, test_loss is 0.3114, accuracy is 0.929287, max_norm is 0.0372, mean_norm is 0.0061
+At round 149, test_loss is 0.3099, accuracy is 0.929686, max_norm is 0.0383, mean_norm is 0.0060
+At round 150, test_loss is 0.3085, accuracy is 0.929686, max_norm is 0.0373, mean_norm is 0.0060
+At round 151, test_loss is 0.3071, accuracy is 0.929781, max_norm is 0.0378, mean_norm is 0.0059
+At round 152, test_loss is 0.3057, accuracy is 0.929991, max_norm is 0.0379, mean_norm is 0.0059
+At round 153, test_loss is 0.3043, accuracy is 0.929882, max_norm is 0.0369, mean_norm is 0.0058
+At round 154, test_loss is 0.3029, accuracy is 0.930294, max_norm is 0.0373, mean_norm is 0.0058
+At round 155, test_loss is 0.3016, accuracy is 0.930491, max_norm is 0.0367, mean_norm is 0.0057
+At round 156, test_loss is 0.3003, accuracy is 0.930590, max_norm is 0.0369, mean_norm is 0.0057
+At round 157, test_loss is 0.2990, accuracy is 0.930689, max_norm is 0.0365, mean_norm is 0.0056
+At round 158, test_loss is 0.2978, accuracy is 0.930792, max_norm is 0.0364, mean_norm is 0.0056
+At round 159, test_loss is 0.2965, accuracy is 0.930904, max_norm is 0.0366, mean_norm is 0.0055
+At round 160, test_loss is 0.2953, accuracy is 0.931213, max_norm is 0.0368, mean_norm is 0.0055
+At round 161, test_loss is 0.2941, accuracy is 0.931317, max_norm is 0.0362, mean_norm is 0.0055
+At round 162, test_loss is 0.2929, accuracy is 0.931422, max_norm is 0.0359, mean_norm is 0.0054
+At round 163, test_loss is 0.2918, accuracy is 0.931213, max_norm is 0.0366, mean_norm is 0.0054
+At round 164, test_loss is 0.2906, accuracy is 0.931210, max_norm is 0.0356, mean_norm is 0.0053
+At round 165, test_loss is 0.2895, accuracy is 0.931307, max_norm is 0.0356, mean_norm is 0.0053
+At round 166, test_loss is 0.2884, accuracy is 0.931409, max_norm is 0.0360, mean_norm is 0.0052
+At round 167, test_loss is 0.2873, accuracy is 0.931714, max_norm is 0.0358, mean_norm is 0.0052
+At round 168, test_loss is 0.2862, accuracy is 0.931816, max_norm is 0.0351, mean_norm is 0.0052
+At round 169, test_loss is 0.2851, accuracy is 0.932221, max_norm is 0.0347, mean_norm is 0.0051
+At round 170, test_loss is 0.2841, accuracy is 0.932221, max_norm is 0.0353, mean_norm is 0.0051
+At round 171, test_loss is 0.2830, accuracy is 0.932319, max_norm is 0.0360, mean_norm is 0.0050
+At round 172, test_loss is 0.2820, accuracy is 0.932319, max_norm is 0.0344, mean_norm is 0.0050
+At round 173, test_loss is 0.2810, accuracy is 0.932517, max_norm is 0.0346, mean_norm is 0.0050
+At round 174, test_loss is 0.2800, accuracy is 0.932618, max_norm is 0.0348, mean_norm is 0.0049
+At round 175, test_loss is 0.2790, accuracy is 0.932725, max_norm is 0.0344, mean_norm is 0.0049
+At round 176, test_loss is 0.2781, accuracy is 0.932933, max_norm is 0.0344, mean_norm is 0.0049
+At round 177, test_loss is 0.2771, accuracy is 0.932933, max_norm is 0.0342, mean_norm is 0.0048
+At round 178, test_loss is 0.2762, accuracy is 0.932932, max_norm is 0.0345, mean_norm is 0.0048
+At round 179, test_loss is 0.2753, accuracy is 0.933239, max_norm is 0.0341, mean_norm is 0.0048
+At round 180, test_loss is 0.2743, accuracy is 0.933438, max_norm is 0.0340, mean_norm is 0.0047
+At round 181, test_loss is 0.2734, accuracy is 0.933433, max_norm is 0.0334, mean_norm is 0.0047
+At round 182, test_loss is 0.2725, accuracy is 0.933732, max_norm is 0.0338, mean_norm is 0.0047
+At round 183, test_loss is 0.2717, accuracy is 0.934044, max_norm is 0.0341, mean_norm is 0.0046
+At round 184, test_loss is 0.2708, accuracy is 0.934042, max_norm is 0.0337, mean_norm is 0.0046
+At round 185, test_loss is 0.2699, accuracy is 0.934138, max_norm is 0.0342, mean_norm is 0.0046
+At round 186, test_loss is 0.2691, accuracy is 0.934138, max_norm is 0.0337, mean_norm is 0.0045
+At round 187, test_loss is 0.2683, accuracy is 0.934242, max_norm is 0.0338, mean_norm is 0.0045
+At round 188, test_loss is 0.2675, accuracy is 0.934246, max_norm is 0.0326, mean_norm is 0.0045
+At round 189, test_loss is 0.2667, accuracy is 0.934542, max_norm is 0.0332, mean_norm is 0.0045
+At round 190, test_loss is 0.2659, accuracy is 0.934544, max_norm is 0.0334, mean_norm is 0.0044
+At round 191, test_loss is 0.2651, accuracy is 0.934544, max_norm is 0.0327, mean_norm is 0.0044
+At round 192, test_loss is 0.2643, accuracy is 0.934544, max_norm is 0.0331, mean_norm is 0.0044
+At round 193, test_loss is 0.2635, accuracy is 0.934744, max_norm is 0.0334, mean_norm is 0.0043
+At round 194, test_loss is 0.2627, accuracy is 0.935048, max_norm is 0.0331, mean_norm is 0.0043
+At round 195, test_loss is 0.2620, accuracy is 0.935353, max_norm is 0.0324, mean_norm is 0.0043
+At round 196, test_loss is 0.2612, accuracy is 0.935553, max_norm is 0.0323, mean_norm is 0.0043
+At round 197, test_loss is 0.2605, accuracy is 0.935753, max_norm is 0.0323, mean_norm is 0.0042
+At round 198, test_loss is 0.2598, accuracy is 0.936051, max_norm is 0.0326, mean_norm is 0.0042
+At round 199, test_loss is 0.2590, accuracy is 0.936243, max_norm is 0.0324, mean_norm is 0.0042
+At round 200, test_loss is 0.2583, accuracy is 0.936345, max_norm is 0.0325, mean_norm is 0.0042
