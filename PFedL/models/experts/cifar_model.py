@@ -31,7 +31,7 @@ class Cifar_basis2(tf.keras.Model):
                              trainable=False, dtype=tf.float32)
         
 
-    def __call__(self, x):
+    def call(self, x):
         x = self.pool1(self.conv1(x))
         x = self.pool2(self.conv2(x))
         x = self.conv3(x)
@@ -69,7 +69,7 @@ class Cifar_basis3(tf.keras.Model):
                              trainable=False, dtype=tf.float32)
         
 
-    def __call__(self, x):
+    def call(self, x):
         x = self.pool1(self.conv1(x))
         x = self.pool2(self.conv2(x))
         x = self.conv3(x)
@@ -109,7 +109,7 @@ class Cifar_basis4(tf.keras.Model):
                              trainable=False, dtype=tf.float32)
         
 
-    def __call__(self, x):
+    def call(self, x):
         x = self.pool1(self.conv1(x))
         x = self.pool2(self.conv2(x))
         x = self.conv3(x)
