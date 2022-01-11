@@ -8,7 +8,7 @@ import tensorflow as tf
 from tensorflow.keras import layers
 from utils.utils import normalization
 
-class Cifar_basis2(tf.Module):
+class Cifar_basis2(tf.keras.Model):
     def __init__(self):
         super(Cifar_basis2, self).__init__()
 
@@ -44,7 +44,7 @@ class Cifar_basis2(tf.Module):
         return output
 
 
-class Cifar_basis3(tf.Module):
+class Cifar_basis3(tf.keras.Model):
     def __init__(self):
         super(Cifar_basis2, self).__init__()
 
@@ -82,7 +82,7 @@ class Cifar_basis3(tf.Module):
                                tf.multiply(self.c[2], z2)])
         return output
 
-class Cifar_basis3(tf.Module):
+class Cifar_basis4(tf.keras.Model):
     def __init__(self):
         super(Cifar_basis2, self).__init__()
 
