@@ -12,7 +12,7 @@ class Mnist(tf.keras.Model):
         output = self.fc_1(x)
         return output
 
-class Cifar(tf.Module):
+class Cifar(tf.keras.Model):
     '''
     Referece https://www.tensorflow.org/tutorials/images/cnn?hl=zh-cn
     '''
