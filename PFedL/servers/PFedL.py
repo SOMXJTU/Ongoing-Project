@@ -60,7 +60,7 @@ class Server_PFedL(Server_base):
                                                                                                            train_acc,
                                                                                                            test_loss,
                                                                                                            test_acc))
-                f.write("/n")
+                f.write("\n")
 
             tqdm.write(
                 'At round {}, the training loss is {:.4f}, the training accuracy is {:.4f}, the test loss is: {:.4f}, the test accuracy is {:.4f}'.format(epoch,
