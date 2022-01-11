@@ -27,7 +27,7 @@ class Cifar(tf.keras.Model):
         self.fc_1 = layers.Dense(64, activation='relu')
         self.fc_2 = layers.Dense(10, activation='softmax')
 
-    def __call__(self, x):
+    def call(self, x):
         x = self.pool1(self.conv1(x))
         x = self.pool2(self.conv2(x))
         x = self.conv3(x)
