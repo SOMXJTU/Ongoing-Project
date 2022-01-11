@@ -46,7 +46,7 @@ class Cifar_basis2(tf.keras.Model):
 
 class Cifar_basis3(tf.keras.Model):
     def __init__(self):
-        super(Cifar_basis2, self).__init__()
+        super(Cifar_basis3, self).__init__()
 
         # bottom layer
         self.conv1 = layers.Conv2D(32, (3, 3), activation='relu')
@@ -84,7 +84,7 @@ class Cifar_basis3(tf.keras.Model):
 
 class Cifar_basis4(tf.keras.Model):
     def __init__(self):
-        super(Cifar_basis2, self).__init__()
+        super(Cifar_basis4, self).__init__()
 
         # bottom layer
         self.conv1 = layers.Conv2D(32, (3, 3), activation='relu')
