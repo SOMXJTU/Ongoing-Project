@@ -1,0 +1,35 @@
+# run FedAvg
+echo "Run FedAvg"
+nohup python run_experiment.py mnist FedAvg --n_learners 1 --n_rounds 200 --bz 128 --lr 0.01 \
+ --lr_scheduler multi_step --log_freq 5 --device cuda --optimizer sgd --seed 1234 --verbose 1 >> ~/FedEM/'nohup log'/'mnist log'/FedAvg.log 2>&1 &
+
+# run FedAvg + local adaption
+echo "Run FedAvg + local adaption"
+nohup python run_experiment.py mnist FedAvg --n_learners 1 --locally_tune_clients --n_rounds 200 --bz 128 \
+ --lr 0.01 --lr_scheduler multi_step --log_freq 5 --device cuda --optimizer sgd --seed 1234 --verbose 1 >> ~/FedEM/'nohup log'/'mnist log'/
+
+# run training using local data only
+echo "Run Local"
+nohup python run_experiment.py mnist local --n_learners 1 --n_rounds 200 --bz 128 --lr 0.01 \
+ --lr_scheduler multi_step --log_freq 5 --device cuda --optimizer sgd --seed 1234 --verbose 1 >> ~/FedEM/'nohup log'/'mnist log'/Local.log 2>&1 &
+
+# run Clustered FL
+echo "Run Clustered FL"
+nohup python run_experiment.py mnist clustered --n_learners 1 --n_rounds 200 --bz 128 --lr 0.01 \
+ --lr_scheduler multi_step --log_freq 5 --device cuda --optimizer sgd --seed 1234 --verbose 1 >> ~/FedEM/'nohup log'/'mnist log'/
+
+ # run FedProx
+echo "Run FedProx"
+nohup python run_experiment.py mnist FedProx --n_learners 1 --n_rounds 200 --bz 128 --lr 0.01 --mu 0.1 \
+ --lr_scheduler multi_step --log_freq 5 --device cuda --optimizer prox_sgd --seed 1234 --verbose 1 >> ~/FedEM/'nohup log'/'mnist log'/
+
+# Run Richtarek's Formulation
+echo "Run Personalized (Richtarek's Formulation)"
+# nohup python run_experiment.py mnist personalized --n_learners 1 --n_rounds 200 --bz 128 --lr 0.01 --mu 1.0 \
+nohup python run_experiment.py mnist pFedMe --n_learners 1 --n_rounds 200 --bz 128 --lr 0.01 --mu 1.0 
+ --lr_scheduler multi_step --log_freq 5 --device cuda --optimizer prox_sgd --seed 1234 --verbose 1 >> ~/FedEM/'nohup log'/'mnist log'/pFedme.log 2>&1 &
+
+ # run FedEM
+echo "Run FedEM"
+nohup python run_experiment.py mnist FedEM --n_learners 3 --n_rounds 200 --bz 128 --lr 0.05 \
+ --lr_scheduler multi_step --log_freq 5 --device cuda --optimizer sgd --seed 1234 --verbose 1 >> ~/FedEM/'nohup log'/'mnist log'/FedEM.log 2>&1 &
