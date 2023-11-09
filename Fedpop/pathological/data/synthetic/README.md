@@ -2,8 +2,7 @@
 
 ## Introduction
 We propose a process to generate synthetic federated datasets,
-with the particularity that the data distribution of each client/task is the mixture
-of \(M\) underlying distributions.
+with the particularity that the data distribution of each client/task is the mixture of \(M\) underlying distributions.
 
 
 ## Instructions
@@ -25,7 +24,7 @@ Run generate_data.py with a choice of the following arguments:
 
 ## Paper Experiments
 
-In order to generate the data split for Table 2 (Full client participation), run
+In order to generate the data split for our experiment (Full client participation), run
 
 ```
 python generate_data.py \
@@ -36,20 +35,5 @@ python generate_data.py \
     --noise_level 0.1
     --n_test 5000 \
     --alpha 0.4 \
-    --seed 12345    
-```
-
-In order to generate the data split for Table 3 (Unseen clients), run
-
-```
-python generate_data.py \
-    --n_tasks 300 \
-    --n_classes 2 \
-    --n_components 3 \
-    --dimension 150 \
-    --noise_level 0.1
-    --n_test 5000 
-    --alpha 0.4 \
-    --tr_tasks_frac 0.8 \
     --seed 12345    
 ```

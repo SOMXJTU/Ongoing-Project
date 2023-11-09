@@ -2,6 +2,7 @@
 
 For each dataset, load the following files:
 - `{dataset}_client_ids_train.csv` and `{dataset}_client_ids_test.csv`: save with a header
+- `generate_w_{dataset}.py`: calculate the cosine similarity matrix based on the clients' label empirical distributions.
 ```
 "train_ids"
 "id1"
@@ -29,24 +30,12 @@ To load, run:
 ```python
     client_sizes = pd.read_csv(sizes_filename, index_col=0, squeeze=True, dtype='string').to_dict()
 ```
-To save, run:
-```
-    TODO
-```
 - [optional] `{dataset}_mean.csv` and `{dataset}_std.csv`: 
 To load, run:
 ```
     torch.from_numpy(pd.read_csv(mean_filename).to_numpy().astype(np.float32))
 ```
-To save, run:
-```
 
-```
-For celeba:
-```
-    mean = [128.48366490779233, 107.9964640295695, 97.20552669177295]
-    std = [78.43797746627817, 73.26972637336158, 73.0293954663978]
-```
 
 
 # Details:
@@ -63,9 +52,3 @@ selected_ids_to_test = rng.sample(selected_ids_to_train, 1000)  # sample 1000 cl
 
 ## EMINST
 - >= 100 training points and >= 25 testing points: there are 1114 of such clients
-
-## GLDv2
-- consider all train clients from TFF with at least 50 data points: there are 823 of them
-- split their data 50:50 into train and test
-
-## CelebA

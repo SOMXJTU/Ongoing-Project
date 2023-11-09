@@ -1,8 +1,3 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-#
-# This source code is licensed under the MIT license found in the
-# LICENSE file in the root directory of this source tree.
-
 import gc
 import math
 import numpy as np
@@ -18,41 +13,6 @@ from types import SimpleNamespace
 
 import pfl
 import pfl.utils, pfl.metrics, pfl.data, pfl.models, pfl.optim
-
-import optuna
-
-
-def objective(trial):
-    # set logfilename and savedir: /checkpoint/pfl/pretrain_model/dataset/hyperparameter/pt, csv
-    if args.pretrain:
-        if args.dataset == 'emnist':
-            n_canonical = trial.suggest_categorical('n_canonical', [2, 5, 10, 30])
-            laplace_coef = trial.suggest_categorical('laplace_coef', [1e-5, 1e-4, 1e-3, 1e-2, 1e-1])
-        elif args.dataset == 'stackoverflow':
-            n_canonical = trial.suggest_categorical('n_canonical', [2, 5, 7])
-            laplace_coef = trial.suggest_categorical('laplace_coef', [1e-5])
-        else:
-            raise "unsupported dataset!"
-        args.n_canonical = n_canonical
-        args.laplace_coef = laplace_coef
-
-        laplace_base = int(abs(math.log10(laplace_coef)))
-        logfilename = f"{args.dataset}_pretrain_{args.num_communication_rounds}"
-        if args.interpolate:
-            trial_dir = f"n{n_canonical}_laplace{laplace_base}_interpolate"
-        else:
-            trial_dir = f"n{n_canonical}_laplace{laplace_base}"
-        trial_dir = os.path.join(args.commondir, trial_dir)
-
-    _make_file(trial_dir)
-    args.savedir = trial_dir
-    # args.pretrained_model_path = model_path
-    logfilename = os.path.join(args.savedir, logfilename)
-    args.logfilename = logfilename
-    print(f'the savedir is {args.savedir}')
-    print(f'the num of canonical models is {args.n_canonical}, the lambda is {args.laplace_coef}, the random seed is {args.seed}')
-    target_test_loss = train_fl()
-    return target_test_loss
 
 
 def train_fl():
@@ -194,9 +154,6 @@ def train_fl():
         _log_test(starting_round, pfl_optim)
     start_time = time.time()
     
-    ## test the canonical coefficient
-    for key, val in pfl_optim.saved_client_params.items():
-        print(key, val)
 
     # Main training loop
     prev_ckpt_time = time.time()
@@ -321,43 +278,7 @@ def _make_file(path):
         os.mkdir(path)
 
 def main():
-    # set common savedir: /checkpoint/pfl/pretrain_model/dataset/
-    commondir = args.commondir
-    if args.pretrain:
-        commondir = os.path.join(commondir, "pretrain_model")
-        if args.dataset == 'emnist':
-            sampler = optuna.samplers.GridSampler({
-            "n_canonical" : [2, 5, 10, 30],
-            "laplace_coef" : [1e-5, 1e-4, 1e-3, 1e-2]}
-            )
-        else:
-            sampler = optuna.samplers.GridSampler({
-            "n_canonical" : [2, 5, 7],
-            "laplace_coef" : [1e-5]}
-            )
-            args.is_sparse = True  # to use sketch in cal similarity matrix
-        storage_name = f'sqlite:///{args.dataset}_pretrain'
-    else:
-        commondir = os.path.join(commondir, 'train_model')
-        sampler = optuna.samplers.GridSampler({
-            "seed" : list(range(1, 6))
-        })
-        storage_name = f'sqlite:///{args.dataset}_train'
-    if args.interpolate:
-        storage_name += '_interpolate'
-    storage_name += '.db'
-
-    _make_file(commondir)
-    commondir = os.path.join(commondir, args.dataset)
-    _make_file(commondir)
-    args.commondir = commondir
-
-    study = optuna.create_study(study_name=f"{args.dataset}_{args.pfl_algo}", 
-                                sampler=sampler, direction='minimize', storage=storage_name,
-                                load_if_exists=True)
-    study.optimize(objective)
-
-
+    return train_fl()
 
 
 if __name__ == '__main__':

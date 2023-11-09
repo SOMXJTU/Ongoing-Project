@@ -21,17 +21,14 @@ def get_model_from_args(args, device):
             model = EmnistConvNet()
         elif args.model_name in ['resnet', 'resnet_gn']:
             print('Running EMNIST with ResNet18 w/ group norm')
-            if args.personalize_on_client == "canonical" or args.pfl_algo.lower() == "fedpop":
+            if args.personalize_on_client == "canonical" or ("pfl_algo" in args and args.pfl_algo.lower() == "fedpop"):
                 model = Canonical_EmnistResNetGN(args.n_canonical, args.interpolate)
             else:
                 model = EmnistResNetGN()
-    elif args.dataset.lower() == 'gldv2':
-        # model = GLDv2ResNetGN(pretrained=True)
-        model = GLDv2ResNetGN(pretrained=True, model=args.model_name)
     elif args.dataset == 'stackoverflow':
         total_vocab_size = args.vocab_size + args.num_oov_buckets + 3  # add pad, bos, eos
         # TODO: adding fedpop
-        if args.personalize_on_client == "canonical" or args.pfl_algo.lower() == "fedpop":
+        if args.personalize_on_client == "canonical" or ("pfl_algo" in args and args.pfl_algo.lower() == "fedpop"):
             model = Canonical_WordLMTransformer(
                 args.n_canonical, args.max_sequence_length, total_vocab_size, args.input_dim, args.attn_hidden_dim, args.fc_hidden_dim,
                 args.num_attn_heads, args.num_transformer_layers, interpolate=args.interpolate,

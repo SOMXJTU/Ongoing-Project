@@ -1,8 +1,3 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-#
-# This source code is licensed under the MIT license found in the
-# LICENSE file in the root directory of this source tree.
-
 from collections import OrderedDict
 import copy
 import gc
@@ -21,36 +16,6 @@ import torch
 import pfl
 import pfl.utils, pfl.metrics, pfl.data, pfl.models
 
-
-import optuna
-
-def objective(trail):
-    num_epochs_personalization = trail.suggest_categorical('num_epochs_personalization', list(range(5)))
-    logfilename = f'{num_epochs_personalization}'
-    args.num_epochs_personalization = num_epochs_personalization
-    if args.dataset.lower() == "emnist" and args.personalize_on_client == "canonical":
-        args.laplace_coef = 1e-5
-        args.n_canonical = 10
-        args.pretrained_model_path = f'./checkpoint/pfl/pretrain_model/emnist/n10_laplace5/checkpoint.pt'
-        if args.interpolate:
-            args.n_canonical = 5
-            args.pretrained_model_path = f'./checkpoint/pfl/pretrain_model/emnist/n5_laplace5_interpolate/checkpoint.pt'
-            logfilename += '_interpolate'
-    elif args.dataset.lower() == "stackoverflow" and args.personalize_on_client == "canonical":
-        args.laplace_coef = 1e-5
-        args.n_canonical = 2
-        args.pretrained_model_path = f'./checkpoint/pfl/pretrain_model/stackoverflow/n2_laplace5/checkpoint.pt'
-        if args.interpolate:
-            args.n_canonical = 5
-            args.pretrained_model_path = f'./checkpoint/pfl/pretrain_model/stackoverflow/n5_laplace5_interpolate/checkpoint.pt'
-            logfilename += 'interpolate'
-    
-    logfilename = os.path.join(args.commondir, logfilename)
-    _make_file(logfilename)
-    args.savedir = logfilename
-    args.logfilename = logfilename
-    target_test_accuracy = finetune()
-    return target_test_accuracy
 
 def finetune():
     # Setup model
@@ -109,7 +74,7 @@ def finetune():
         client_trainloader = train_fed_loader.get_client_dataloader(client_id)
         client_testloader = test_fed_loader.get_client_dataloader(client_id)
         client_params = saved_client_params[client_id] if len(saved_client_params) != 0 else None
-        print(client_params)
+        # print(client_params)
         out = finetune_for_one_client(
             args, model, client_params, client_trainloader, client_testloader, loss_fn, metrics_fn, device
         )
@@ -228,25 +193,8 @@ def _make_file(path):
     if not os.path.isdir(path):
         os.mkdir(path)
 
-def main():
-    sampler = optuna.samplers.GridSampler({
-        "num_epochs_personalization": list(range(5)),
-    })
-    common_dir = os.path.join(args.commondir, "finetune_model")
-    _make_file(common_dir)
-    common_dir = os.path.join(common_dir, args.dataset)
-    _make_file(common_dir)
-    args.commondir = common_dir
-
-    storage_name = f'sqlite:///{args.dataset}_fintune'
-    if args.interpolate:
-        storage_name += '_interpolate'
-    storage_name += '.db'
-
-    study = optuna.create_study(study_name=f"{args.dataset}_{args.personalize_on_client}",
-                                sampler=sampler, direction='minimize', storage=storage_name,
-                                load_if_exists=True)
-    study.optimize(objective)    
+def main(): 
+    return finetune()
 
 if __name__ == '__main__':
     parser = pfl.utils.make_finetune_parser()

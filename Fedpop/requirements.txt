@@ -1,0 +1,16 @@
+numpy
+pandas
+statsmodels==0.12.2
+torch == 1.10
+torchaudio
+torchvision
+tensorflow_federated==0.19.0
+silence_tensorflow
+torchinfo
+tensorboard
+Pillow == 8.1.2
+tqdm
+scikit-learn == 0.21.3
+matplotlib
+networkx
+cvxpy

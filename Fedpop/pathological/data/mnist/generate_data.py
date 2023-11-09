@@ -1,5 +1,5 @@
 """
-Download CIFAR-10 dataset, and splits it among clients
+Download MNIST dataset, and splits it among clients
 """
 import os
 import random
@@ -21,9 +21,8 @@ from typing import List
 from collections import Counter, OrderedDict
 
 
-ALPHA = .4
 N_CLASSES = 10
-N_COMPONENTS = 3
+N_COMPONENTS = 4
 SEED = 12345
 RAW_DATA_PATH = "raw_data/"
 PATH = "all_data/"
@@ -46,10 +45,6 @@ def parse_args():
         '--limit_data',
         help='the datasize is heterogeneous among clients',
         action='store_true'
-    )
-    parser.add_argument(
-        '--alpha',
-        default=0.5
     )
     parser.add_argument(
         '--n_components',
@@ -178,12 +173,11 @@ def main():
     client_idx = list(range(n_clients))
     rng.shuffle(client_idx)
     
-    # print(client_idx)
-    # index_map = OrderedDict()
-    # for i, idx in enumerate(client_idx):
-    #     index_map[idx] = i
-    # with open('client_index.pkl', "wb") as f:
-    #     pickle.dump([index_map[i] for i in range(100)], f)
+    index_map = OrderedDict()
+    for i, idx in enumerate(client_idx):
+        index_map[idx] = i
+    with open('client_index.pkl', "wb") as f:
+        pickle.dump([index_map[i] for i in range(n_clients)], f)
 
     client_sampleidx = [client_sampleidx[i] for i in client_idx]
 

@@ -25,10 +25,10 @@ for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
 
 def main():
-    train_ids = pd.read_csv("../dataset_statistics/stackoverflow_client_ids_train.csv",dtype=str)
-    test_ids = pd.read_csv("../dataset_statistics/stackoverflow_client_ids_test.csv", dtype=str)
-    train_sizes = pd.read_csv("../dataset_statistics/stackoverflow_client_sizes_train.csv", header=0, names=["id", "num"], dtype={"id":str, "num":int})
-    test_sizes = pd.read_csv("../dataset_statistics/stackoverflow_client_sizes_test.csv", header=0, names=["id", "num"], dtype={"id":str, "num":int})
+    train_ids = pd.read_csv("stackoverflow_client_ids_train.csv",dtype=str)
+    test_ids = pd.read_csv("stackoverflow_client_ids_test.csv", dtype=str)
+    train_sizes = pd.read_csv("stackoverflow_client_sizes_train.csv", header=0, names=["id", "num"], dtype={"id":str, "num":int})
+    test_sizes = pd.read_csv("stackoverflow_client_sizes_test.csv", header=0, names=["id", "num"], dtype={"id":str, "num":int})
     train_ids = train_ids["train_ids"].to_list()
     test_ids = test_ids["test_ids"].to_list()
 
@@ -104,15 +104,6 @@ def main():
     save_path = "without_oov.npz"
     scipy.sparse.save_npz(save_path, without_oov)
     print(f"The vocabulary sparse matrix is stored in {save_path}")
-
-    # similarity_matrix = cosine_similarity(concate_matrix)
-    # d = pd.DataFrame.from_dict(client_label_d, orient="index")
-    # d_tensor = torch.tensor(d.values, dtype=torch.float)
-
-    # similarity = F.cosine_similarity(d_tensor.unsqueeze(1), d_tensor.unsqueeze(0), dim=-1)
-    # print("*"*10, "w shape is {}".format(similarity.shape), "*"*10)
-    # w = pd.DataFrame(similarity.numpy(), dtype=np.float32, index=d.index, columns=d.index)
-    # w.to_csv("./stachoverflow_similarity.csv")
 
     return 
 
